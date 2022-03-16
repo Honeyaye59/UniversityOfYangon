@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Honey Aye">
+    <meta name="description" content="University of Yangon website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, university website">
+    <title>University of Yangon</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font Link -->
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+        </style> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+            </style> 
+
+            <!-- Font Awesome cdn  -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+    <!-- Navigation -->
+    <nav>
+        
+            <a href="index.html"><img src="images/Seal_of_the_University_of_Yangon.png" alt=""></a>
+            
+        <div class="nav-links" id="nav-links">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#campus">CAMPUS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="header-content">
+        <h1>University of Yangon</h1>
+        <p>	နတ္ထိ သမံ ဝိဇ္ဇာ မိတ္တံ</p>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About University</h2>
+        <div class="row">
+            <div class="about-col">
+
+                <p>The University of Yangon (also Yangon University; Burmese: ရန်ကုန် တက္ကသိုလ်, formerly Rangoon College, Rangoon University and Rangoon Arts and Sciences University), located in Kamayut, Yangon, is the oldest university in Myanmar's modern education system and the best known university in Myanmar. The university offers mainly undergraduate and postgraduate degrees (Bachelor's, Master's, Post-graduate Diploma, and Doctorate) programs in liberal arts, sciences and law.  </p>
+            </div>
+            <div class="about-col">
+                <img src="images/maxresdefault.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Section -->
+
+    <section class="courses" id="courses">
+        <h2>Courses We Offer</h2>
+        <div class="row">
+            <div class="courses-col">
+                <a href=""><i class="fa-solid fa-graduation-cap"></i><h3>BSc</h3></a>
+            </div>
+            <div class="courses-col">
+                <a href=""><i class="fa-solid fa-graduation-cap"></i><h3>MSc</h3></a>
+            </div>
+            <div class="courses-col">
+                <a href=""><i class="fa-solid fa-graduation-cap"></i><h3>PhD</h3></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Campus Section -->
+
+    <section class="campus" id="campus">
+        <h2>Our Campus</h2>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/remembrances-3.jpg" alt="">
+                <div class="layer">
+                    <h3>Library</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/life-05a_30.jpg" alt="">
+                <div class="layer">
+                    <h3>Hostels</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/life-04a_37.jpg" alt="">
+                <div class="layer">
+                    <h3>Thit Pok<br>Tetrameles Tudiflora Plant</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/DSC06822.jpg" alt="">
+                <div class="layer">
+                    <h3>Recreation Centre</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <footer class="contact" id="contact">
+        <div class="row">
+            <div class="contact-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.8634257053154!2d96.13393191400668!3d16.83313012298566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194b71990dae3%3A0xd5c37278ebb4f327!2sUniversity%20of%20Yangon!5e0!3m2!1sen!2smm!4v1647436497520!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-col">
+                <div class="address">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+95 (9) 8602057</p>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@uy.edu.mm</p>
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-house"></i>
+                    <p>University Avenue Road, Kamayut Township 11041, Yangon, Myanmar</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">	&copy; 2022 University Of Yangon. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+<!-- Javascript for MenuBar -->
+
+    <script>
+let navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
