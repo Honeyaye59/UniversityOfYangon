@@ -173,6 +173,10 @@ nav .fa-xmark{
     color:#F0A500;
     font-size: 1.5rem;
     margin-bottom: 20px;
+    
+}
+.fa-solid {
+    cursor: pointer;
 }
 
 /* Campus Section */
